@@ -137,3 +137,30 @@ display: block; margin: 4px 0;
 }
 body { font-size: 15px; }
 }
+/* ==========================================================================
+   1. PSEUDO-CLASS RULE
+   Targeting element states dynamically
+   ========================================================================== */
+
+/* 
+ * The :hover pseudo-class targets any <a> (anchor) element when the user 
+ * hovers over it with their mouse pointer. It updates the text color to a 
+ * vibrant orange, adds an underline, and scales up slightly for an interactive feedback effect.
+ */
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
